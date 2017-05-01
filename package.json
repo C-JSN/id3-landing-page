@@ -6,10 +6,6 @@
   "scripts": {
     "start": "node server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/BlackrockDigital/startbootstrap-agency.git"
-  },
   "dependencies": {
     "dotenv": "^4.0.0",
     "express": "^4.15.2",
