@@ -1,8 +1,8 @@
 {
-  "name": "ID3",
-  "title": "ID3 Landing Page",
-  "version": "1.0.0"
-  },
+  "name": "id3",
+  "title": "id3 landing page",
+  "version": "1.0.0",
+  "homepage": "",
   "scripts": {
     "start": "node server.js"
   },
