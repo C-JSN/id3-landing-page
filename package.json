@@ -2,8 +2,6 @@
   "name": "id3",
   "version": "1.0.0",
   "scripts": {
-    "gulp": "gulp",
-    "prestart": "npm run gulp",
     "start": "node server.js"
   },
   "dependencies": {
