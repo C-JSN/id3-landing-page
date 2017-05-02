@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "scripts": {
     "gulp": "gulp",
-    "preinstall": "npm install -g gulp",
     "prestart": "npm run gulp",
     "start": "node server.js"
   },
