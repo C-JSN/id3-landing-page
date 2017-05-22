@@ -186,7 +186,7 @@ fieldset[disabled] .btn-xl.active {
 }
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus {
-  color: #7C67FF;
+  color: #CA6F1E;
   outline: none;
 }
 .navbar-custom .navbar-nav > .active > a {
@@ -379,11 +379,11 @@ ul.social-buttons li a:active {
 }
 ::-moz-selection {
   text-shadow: none;
-  background: #7C67FF;
+  background: #CA6F1E;
 }
 ::selection {
   text-shadow: none;
-  background: #7C67FF;
+  background: #CA6F1E;
 }
 img::selection {
   background: transparent;
@@ -393,4 +393,15 @@ img::-moz-selection {
 }
 body {
   webkit-tap-highlight-color: #7C67FF;
+}
+
+#id3-showcase {
+  padding-top: 0;
+}
+
+.showcase {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
 }
