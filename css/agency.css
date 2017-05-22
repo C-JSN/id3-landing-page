@@ -8,11 +8,10 @@ body {
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .text-muted {
-  color: #EB984E;
+  color: #887eca;
 }
 .text-primary {
-  /*color: #7C67FF;*/
-  color: #E67E22;
+  color: #7C67FF;
 }
 p {
   font-size: 14px;
@@ -29,13 +28,13 @@ a.active {
   outline: none;
 }
 a {
-  color: #E67E22;
+  color: #7C67FF;
 }
 a:hover,
 a:focus,
 a:active,
 a.active {
-  color: #CA6F1E;
+  color: #5034ff;
 }
 h1,
 h2,
@@ -102,14 +101,14 @@ fieldset[disabled] .btn-primary.active {
 }
 .btn-xl {
   color: white;
-  background-color: #EB984E;
-  border-color: #EB984E;
+  background-color: #7C67FF;
+  border-color: #7C67FF;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
-  border-radius: 7px;
+  border-radius: 3px;
   font-size: 18px;
-  margin: 15px;
+  margin: 5px;
   padding: 20px 40px;
 }
 .btn-xl:hover,
@@ -118,8 +117,8 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
   color: white;
-  background-color: #CA6F1E;
-  border-color: #CA6F1E;
+  background-color: #5034ff;
+  border-color: #472aff;
 }
 .btn-xl:active,
 .btn-xl.active,
@@ -149,7 +148,7 @@ fieldset[disabled] .btn-xl.active {
   background-color: white;
 }
 .navbar-custom {
-  /*background-color: #241e4b;*/
+  background-color: #241e4b;
   border-color: transparent;
 }
 .navbar-custom .navbar-brand {
@@ -166,8 +165,8 @@ fieldset[disabled] .btn-xl.active {
   border-color: rgba(255, 255, 255, 0.02);
 }
 .navbar-custom .navbar-toggle {
-  /*background-color: #7C67FF;
-  border-color: #7C67FF;*/
+  background-color: #7C67FF;
+  border-color: #7C67FF;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   color: white;
@@ -182,7 +181,7 @@ fieldset[disabled] .btn-xl.active {
   text-transform: uppercase;
   font-weight: 400;
   letter-spacing: 1px;
-  color: #EB984E;
+  color: white;
 }
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus {
@@ -192,16 +191,16 @@ fieldset[disabled] .btn-xl.active {
 .navbar-custom .navbar-nav > .active > a {
   border-radius: 0;
   color: white;
-  background-color: #F0B27A;
+  background-color: #7C67FF;
 }
 .navbar-custom .navbar-nav > .active > a:hover,
 .navbar-custom .navbar-nav > .active > a:focus {
   color: white;
-  /*background-color: #5034ff;*/
+  background-color: #5034ff;
 }
 #logo-lg {
-  margin-bottom: 5%;
-  margin-top: 5%;
+  margin-bottom: 35px;
+  margin-top: 10px;
 }
 @media (min-width: 768px) {
   .navbar-custom {
@@ -232,9 +231,7 @@ fieldset[disabled] .btn-xl.active {
   }
 }
 header {
-  /*background-color: #312964;*/
-  /*background-color: #FDF2E9;*/
-  background-color: #FEF4EE;
+  background-color: #312964;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -243,7 +240,7 @@ header {
   background-size: cover;
   -o-background-size: cover;
   text-align: center;
-  color: #E67E22;
+  color: white;
 }
 header .intro-text {
   padding-top: 100px;
@@ -292,7 +289,6 @@ section h2.section-heading {
   font-size: 40px;
   margin-top: 0;
   margin-bottom: 15px;
-  color: #A26035;
 }
 section h3.section-subheading {
   font-size: 20px;
@@ -310,7 +306,6 @@ section h3.section-subheading {
 .service-heading {
   margin: 15px 0;
   text-transform: none;
-  color: #89522F;
 }
 .team-member {
   text-align: center;
@@ -330,12 +325,11 @@ section h3.section-subheading {
 }
 footer {
   padding: 25px 0;
-  /*background-color: #312964;*/
-  background-color: #FEF4EE;
+  background-color: #312964;
   text-align: center;
 }
 footer span.copyright {
-  color: #E67E22;
+  color: #7C67FF;
   line-height: 40px;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
@@ -347,14 +341,13 @@ footer ul.quicklinks {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   text-transform: none;
-  color: #E67E22;
 }
 ul.social-buttons {
   margin-bottom: 0;
 }
 ul.social-buttons li a {
   display: block;
-  background-color: #EB984E;
+  background-color: #241e4b;
   height: 40px;
   width: 40px;
   border-radius: 100%;
@@ -369,7 +362,7 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-  background-color: #CA6F1E;
+  background-color: #7C67FF;
 }
 .btn:focus,
 .btn:active,
